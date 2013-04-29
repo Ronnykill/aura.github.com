@@ -41,5 +41,3 @@ title: Aura for PHP
         <p><a class="btn" href="#">View details &raquo;</a></p>
     </div>
 </div>
-
-<hr>
