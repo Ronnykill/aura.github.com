@@ -1,3 +1,6 @@
+---
+title: packages
+---
 <tr>
     <td>[Autoload](/Aura.Autoload)</td>
     <td>The Aura Autoload package provides a PSR-0 compliant SPL autoloader

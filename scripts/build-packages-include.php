@@ -18,6 +18,9 @@ $packages = [
 ];
 
 $html = [];
+$html[] = "---";
+$html[] = "title: packages";
+$html[] = "---";
 foreach ($packages as $package => $version) {
     echo "$package...\n";
     $json = json_decode(file_get_contents(
