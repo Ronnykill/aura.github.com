@@ -1,8 +1,7 @@
 ---
 title: Writing / Sharing your experience with Aura
 layout: post
-category : auraphp
-tags : [blog]
+tags : [contributing]
 author : Hari KT
 ---
 

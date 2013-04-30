@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Finally blog is here
-category: auraphp
-tags: [hello-world, blog]
+tags: [hello-world]
 author : Hari KT
 ---
 

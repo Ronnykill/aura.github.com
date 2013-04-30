@@ -1,8 +1,7 @@
 ---
 title: Slides from Decoupled Library Packages for PHP 5.4 at PHP | Tek 12
 layout: post
-category : auraphp
-tags : [blog, slides]
+tags : [slides]
 author : Hari KT
 ---
 
