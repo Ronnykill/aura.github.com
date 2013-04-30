@@ -23,7 +23,6 @@ title: Aura for PHP
     <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
 </div>
 
-<!-- Example row of columns -->
 <div class="row">
     <div class="span4">
         <h2>About</h2>
@@ -33,7 +32,7 @@ title: Aura for PHP
             libraries that can be used in any codebase. This means you can use
             as much or as little of the project as you like.
         </p>
-        <p><a class="btn" href="#">View details &raquo;</a></p>
+        <p><a class="btn" href="/about">View details &raquo;</a></p>
     </div>
     <div class="span4">
         <h2>Packages</h2>
@@ -41,9 +40,10 @@ title: Aura for PHP
             The Aura project centers around a collection of independent
             packages. Each package is self-contained and has only the things
             it needs for its core purpose. None of the packages depends on any
-            of the other; you can use each of the packages on its own.
+            of the other; you can download and use each of the packages on its
+            own.
         </p>
-    <p><a class="btn" href="/packages">Read more &raquo;</a></p>
+        <p><a class="btn" href="/packages">Read more &raquo;</a></p>
     </div>
     <div class="span4">
         <h2>Framework</h2>
@@ -52,5 +52,6 @@ title: Aura for PHP
             own. A system repository is available to incorporate them all into
             a coherent framework for application development.
         </p>
-    <p><a class="btn" href="/framework">Read more &raquo;</a></p>
+        <p><a class="btn" href="/framework">Read more &raquo;</a></p>
+    </div>
 </div>
