@@ -1,6 +1,6 @@
 ---
 title: Contributing to Aura Project
-layout: default
+layout: post
 category : auraphp
 tags : [contributing]
 author : Hari KT

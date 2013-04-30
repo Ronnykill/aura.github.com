@@ -1,6 +1,6 @@
 ---
 title: Aura Is More Decoupled Than ZF2 and Symfony2
-layout: default
+layout: post
 category : auraphp
 tags : [decoupled, independent, components, packages]
 author : Paul M. Jones

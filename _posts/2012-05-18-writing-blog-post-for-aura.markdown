@@ -1,6 +1,6 @@
 ---
 title: Writing / Sharing your experience with Aura
-layout: default
+layout: post
 category : auraphp
 tags : [blog]
 author : Hari KT
@@ -21,7 +21,7 @@ Add your post to the `_posts` directory with naming convention as
 Open it on your favourite editor and post 
 
     ---
-    layout: default
+    layout: post
     category : category-name
     tags : [tags]
     ---

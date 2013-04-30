@@ -1,6 +1,6 @@
 ---
 title: New System Release, Including Aura.Framework and Aura.Demo
-layout: default
+layout: post
 category : auraphp
 tags : [framework, demo, system]
 author : Paul M. Jones

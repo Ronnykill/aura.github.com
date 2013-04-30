@@ -1,6 +1,6 @@
 ---
 title: Aura.Micro -- Experimental Replacement for Silex
-layout: default
+layout: post
 category : auraphp
 tags : [router, routing, micro, framework]
 author : Stan Lemon
