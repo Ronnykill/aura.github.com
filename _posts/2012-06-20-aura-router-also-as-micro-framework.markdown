@@ -5,7 +5,6 @@ category : auraphp
 tags : [router, routing]
 author : Hari KT
 ---
-{% include JB/setup %}
 
 Sometimes you may wish to use Aura as a micro-framework. It’s also possible to assigning anonymous function to controller:
 
