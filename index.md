@@ -20,7 +20,7 @@ title: Aura for PHP
         using it in your project today, with <strong>no added
         dependencies</strong>.
     </p>
-    <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+    <p><a class="btn btn-primary btn-large" href="/about">Learn more &raquo;</a></p>
 </div>
 
 <div class="row">
