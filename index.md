@@ -26,18 +26,31 @@ title: Aura for PHP
 <!-- Example row of columns -->
 <div class="row">
     <div class="span4">
-        <h2>Heading</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        <h2>About</h2>
+        <p>
+            The primary goal of Aura is to provide high-quality, well-tested,
+            <a href="http://php-fig.org">standards-compliant</a>, decoupled
+            libraries that can be used in any codebase. This means you can use
+            as much or as little of the project as you like.
+        </p>
         <p><a class="btn" href="#">View details &raquo;</a></p>
     </div>
     <div class="span4">
-        <h2>Heading</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <p><a class="btn" href="#">View details &raquo;</a></p>
-   </div>
-    <div class="span4">
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn" href="#">View details &raquo;</a></p>
+        <h2>Packages</h2>
+        <p>
+            The Aura project centers around a collection of independent
+            packages. Each package is self-contained and has only the things
+            it needs for its core purpose. None of the packages depends on any
+            of the other; you can use each of the packages on its own.
+        </p>
+    <p><a class="btn" href="/packages">Read more &raquo;</a></p>
     </div>
+    <div class="span4">
+        <h2>Framework</h2>
+        <p>
+            Aura has enough libraries to form a full-stack framework of its
+            own. A system repository is available to incorporate them all into
+            a coherent framework for application development.
+        </p>
+    <p><a class="btn" href="/framework">Read more &raquo;</a></p>
 </div>
