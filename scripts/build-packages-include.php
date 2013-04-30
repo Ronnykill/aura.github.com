@@ -18,27 +18,36 @@ $packages = [
 ];
 
 $html = [];
-$html[] = "---";
-$html[] = "title: packages";
-$html[] = "---";
+
+$html[] = "Package | "
+        . "Description | "
+        . "API Version | "
+        . "Release Date | "
+        . "Downloads | "
+        . "Development ";
+
+$html[] = "--- | "
+        . "--- | "
+        . "--- | "
+        . "--- | "
+        . "--- | "
+        . "--- ";
+
 foreach ($packages as $package => $version) {
     echo "$package...\n";
     $json = json_decode(file_get_contents(
         "https://raw.github.com/auraphp/{$package}/master/composer.json"
     ));
     $name = substr($package, 5);
-    $html[] = "<tr>";
-    $html[] = "    <td>[{$name}](/{$package})</td>";
-    $html[] = "    <td>{$json->description}</td>";
-    $html[] = "    <td>[{$version}](/{$package}/version/{$version}/api)</td>";
-    $html[] = "    <td>{$json->time}</td>";
-    $html[] = "    <td>";
-    $html[] = "        [.zip](https://github.com/auraphp/{$package}/zipball/{$version}),";
-    $html[] = "        [.tar.gz](https://github.com/auraphp/{$package}/tarball/{$version})";
-    $html[] = "    </td>";
-    $html[] = "    <td>[Github](https://github.com/auraphp/{$package})</td>";
-    $html[] = "</tr>";
+    $html[] = "[{$name}](/{$package}) | "
+            . str_replace("\n", " ", $json->description) . " | "
+            . "[{$version}](/{$package}/version/{$version}/api) | "
+            . "{$json->time} | "
+            . "[.zip](https://github.com/auraphp/{$package}/zipball/{$version}), "
+            . "[.tar.gz](https://github.com/auraphp/{$package}/tarball/{$version}) | "
+            . "[Github](https://github.com/auraphp/{$package})";
 }
 
+$html[] = "";
 file_put_contents(dirname(__DIR__) . '/_includes/packages.md', implode("\n", $html));
 echo "Done.\n";
