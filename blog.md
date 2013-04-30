@@ -5,4 +5,5 @@ title: Aura for PHP  &#58; Blog
 ---
 
 {% include JB/setup %}
-{% include JB/posts_collate}
+{% assign posts_collate = site.posts %}
+{% include JB/posts_collate %}
