@@ -1,7 +1,7 @@
 ---
 layout: default
 active: about
-title: Aura for PHP: About
+title: Aura for PHP &#58; About
 ---
 
 About Aura

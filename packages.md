@@ -1,7 +1,7 @@
 ---
 layout: default
 active: packages
-title: Aura for PHP: Packages
+title: Aura for PHP &#58; Packages
 ---
 
 Aura Packages
@@ -13,7 +13,6 @@ purpose. None of the packages depends on any of the other; you can use each of
 the packages on its own.
 
 {% include packages.md %}
-
 
 High-Quality, Well-Tested, Standards-Compliant
 ----------------------------------------------

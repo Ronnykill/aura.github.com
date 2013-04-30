@@ -1,7 +1,7 @@
 ---
 layout: default
 active: contact
-title: Aura for PHP: Contact
+title: Aura for PHP &#58; Contact
 ---
 
 Contact Us
