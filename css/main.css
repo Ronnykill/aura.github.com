@@ -3,5 +3,6 @@
 }
 
 td, th {
+    vertical-align: top;
     padding: 10px;
 }
