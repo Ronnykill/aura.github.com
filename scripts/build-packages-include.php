@@ -5,7 +5,7 @@ $packages = [
     'Aura.Di'       => '1.1.0',
     'Aura.Filter'   => '1.0.0-beta1',
     'Aura.Http'     => '1.0.0',
-    'Aura.Input'    => '1.0.0-dev',
+    // 'Aura.Input'    => '1.0.0-dev',
     'Aura.Intl'     => '1.0.0-beta2',
     'Aura.Marshal'  => '1.0.0',
     'Aura.Router'   => '1.0.0',
@@ -34,7 +34,7 @@ $html[] = "--- | "
         . "--- ";
 
 foreach ($packages as $package => $version) {
-    echo "$package...\n";
+    echo "{$package} ...\n";
     $json = json_decode(file_get_contents(
         "https://raw.github.com/auraphp/{$package}/master/composer.json"
     ));
