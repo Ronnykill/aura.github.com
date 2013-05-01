@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: site
 active: packages
 title: Aura for PHP &#58; Packages
 ---
